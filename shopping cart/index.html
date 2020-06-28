@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="main.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+ 
+<div class="shopping-cart">
+ 
+  <div class="column-labels">
+
+    <label class="product-image">Image</label>
+    <label class="product-details">Product</label>
+    <label class="product-price">Price</label>
+    <label class="product-quantity">Quantity</label>
+    <label class="product-removal">Remove</label>
+
+    <label class="product-line-price">Total</label>
+  </div>
+ 
+  <div class="product">
+    <span class="like">&hearts;</span>
+    <div class="product-image">
+      <img src="./images/kinder.webp">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Chocolate</div>
+      <p class="product-description">  Layers of sweetness in a crispy wafer, filled with milk chocolate and hazelnuts.</p>
+    </div>
+    <div class="product-price">2.99</div>
+    <div class="product-quantity">
+      <input type="number" value="2" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">5.98</div>
+  </div>
+ 
+  <div class="product">
+    <span class="like">&hearts;</span>
+
+    <div class="product-image">
+      <img src="./images/perfume.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">Versace Perfume</div>
+      <p class="product-description">Natural spray eau de toilette 100 ml.</p>
+    </div>
+    <div class="product-price">35.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">35.99</div>
+  </div>
+
+
+
+  <div class="product">
+    <span class="like">&hearts;</span>
+
+    <div class="product-image">
+      <img src="./images/white cheese.jpg">
+    </div>
+    <div class="product-details">
+      <div class="product-title">White cheese</div>
+      <p class="product-description">White cheese is coagulated and preserved in brine. Produced in Eastern Europe.</p>
+    </div>
+    <div class="product-price">1.99</div>
+    <div class="product-quantity">
+      <input type="number" value="1" min="1">
+    </div>
+    <div class="product-removal">
+      <button class="remove-product">
+        Remove
+      </button>
+    </div>
+    <div class="product-line-price">1.99</div>
+  </div>
+ 
+
+
+  <div class="totals">
+    <div class="totals-item">
+      <label>Total</label>
+      <div class="totals-value" id="cart-subtotal">43.96</div>
+    </div>  
+  </div>
+       
+      
+ 
+</div>
+</body>
+</html>
